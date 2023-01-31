@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+
+    <!-- 導覽列 -->
+    <header>
+        <a href="/index.html"><img src="img/foxdown.svg" alt="仙狐茶" class="logo"></a>
+    <div class="headerlist">
+        <ul class="icon">
+            <li><a href="/user.html"><img src="/img/user.svg" alt=""></a></li>
+            <li><a href="/shoppinglist.html"><img src="/img/Shopping.svg" alt=""></a></li>
+            <li><a href="#"><img src="/img/search.svg" alt=""></a></li>
+        </ul>
+        <ul class="headertitle">
+            <li><a href="/story.html">品牌故事</a></li>
+            <li><a href="/shoppingpage.html">私房推薦</a></li>
+            <li><a href="/class.html">識茶小教室</a></li>
+            <li><a href="/contact.html">顧客服務</a></li>
+        </ul>
+
+    </div>
+
+
+    </header>
+
+    <!-- 中間 -->
+
+    <section>
+
+    <!-- 麵包屑 -->
+
+    <div class="nav">
+        <ul>
+            <li><a href="/index.html">首頁&ensp;/</a></li>
+            <li><a href="/story.html">&ensp;購物車列表&ensp;/</a></li>
+            <li><a href="/story.html">&ensp;填寫訂單資訊</a></li>
+        </ul>
+    </div>
+
+
+    <h2>訂購人資訊</h2>
+
+
+    <div class="content">
+
+
+        <div class="buy">
+
+            
+
+            <label>姓名</label>
+            <input type="text"/>
+            
+            <label>電子信箱</label>
+            <input type="text"/>
+            
+            <label>聯絡電話</label>
+            <input type="text"/>
+
+            
+
+        </div>
+
+
+        <div class="buy1">
+
+            <label >地區</label>
+            <input type="text"/>
+            <label >地址</label>
+            <input type="text"/>
+            <label >訂單備註</label>
+            <textarea></textarea>
+            
+
+        </div>
+
+
+        <div class="buy2">
+
+            <label >郵遞區號</label>
+            <input type="text"/>
+
+
+        </div>
+
+    
+
+    </div> 
+
+        <hr>
+
+        <!-- 訂單明細 -->
+
+        <h2>訂單明細</h2>
+
+        <div class="title">
+
+            <ul>
+                <li>商品</li>
+                <li>數量</li>
+                <li>總計</li>
+            </ul> 
+
+        </div>
+
+        <hr>
+
+        <div class="list">
+
+            <ul>
+                <li>經典紅茶茶葉</li>
+                <li>1</li>
+                <li>NT$700</li>
+            </ul> 
+
+        </div>
+            
+        <hr>
+
+        <!-- 商品總計 -->
+
+        <div class="total">
+
+            <ul>
+                <li>小計</li>
+                <li>1</li>
+                <li>NT$700</li>
+            </ul> 
+
+        </div>
+
+        <hr>
+
+        <!-- 運費 -->
+
+        <div class="freight">
+
+            <ul class="send1">
+                <li>運送方式</li>
+                    <ul class="send2">
+                        <li>
+                            <input type="radio" value="7-11" name="send" id="1" checked>
+                            <label for="1">7-11運送:NT$60</label></input>
+                        </li>
+                        <li>
+                            <input type="radio" value="post" name="send" id="2">
+                            <label for="2">郵寄運送:NT$80</label></input>
+                        </li>
+                        <li>
+                            <input type="radio" value="fast" name="send"id="3">
+                            <label for="3">快遞運送:NT$150</label></input>
+                        </li>
+                        <li>
+                            <input type="radio" value="shop" name="send"id="4">
+                            <label for="4">店取:NT$0</label></input>
+                        </li>
+                    </ul>
+            </ul> 
+
+
+        </div>
+
+        <hr>
+
+        <!-- 總計 -->
+
+        <div class="totalpay">
+
+            <ul>
+                <li>總計</li>
+                <li>NT$760</li>
+            </ul> 
+
+        </div>
+            
+        <!-- 付款方式 -->
+
+        <h2>付款方式</h2>
+
+        <div class="pay">
+
+            <ul>
+                <li>
+                    <input type="radio" value="card" name="pay" id="p1" checked>
+                    <label for="p1">信用卡支付</label>
+                </li>
+                <li>
+                    <input type="radio" value="ATM" name="pay" id="p2">
+                    <label for="p2">ATM匯款</label>
+                </li>
+                <li>
+                    <input type="radio" value="PayPel" name="pay" id="p3">
+                    <label for="p3">PayPal支付</label>
+                </li>
+            </ul>
+
+
+        </div>
+
+      
+        
+        <button><a href="">確認下訂</a></button>
+
+
+        
+
+
+
+    </section>
+
+    
+
+
+
+
+
+
+    <!-- footer -->
+    
+    <footer>
+
+        <div class="contacts">
+
+            <h2>聯絡方式</h2>
+            <p class="footerp1">111台北市士林區重慶北路四段123號<br>
+                TEL： 02-2816-2230<br>
+                FAX： 02-2273-5816<br>
+                E-MAIL： foxtea@gmail.com</p>
+
+            <p class="footerp2">本網站為緯育TibaMe前端工程師班第82期學員專題作品，本平台僅供學習、展示之用。</p>    
+        </div>
+
+        <div class="footerlist">
+
+            <ul class="navtitle">
+                <li><a href="/story.html">品牌故事</a></li>
+                <li><a href="/shoppingpage.html">私房推薦</a></li>
+                <li><a href="/class.html">識茶小教室</a></li>
+                <li><a href="/contact.html">顧客服務</a></li>
+                
+            </ul>
+
+            <div class="line"></div>
+
+            <ul class="socialicon">
+                <li><a href="#"><img src="/img/facebook 2.svg" alt=""></a></li>
+                <li><a href="#"><img src="/img/line 2.svg" alt=""></a></li>
+                <li><a href="#"><img src="/img/instagram 2.svg" alt=""></a></li>
+            </ul>
+
+            
+
+        </div>
+
+        
+        
+    </footer>
+
+
+
+
+</body>
+</html>

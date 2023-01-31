@@ -1,0 +1,292 @@
+@import url("reset.css");
+
+html,body{
+    background-image: url(../img/backgroundimg.png);
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Sanchez','inherit',微軟正黑體;
+    
+}
+
+
+/* -------------------導覽列------------------------ */
+
+header{
+    width: 1400px;
+    
+    display:flex;
+    margin: 0 auto;
+}
+
+
+.logo, .logo a{
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 50px;
+}
+
+.headerlist{
+    width:100%;
+    margin:40px 30px 25px 30px;
+    list-style-type: none;
+    
+}
+
+.icon img{
+    width: 25px;
+    height: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.icon li{
+    padding:0 15px 20px;
+    
+}
+
+.headertitle{
+    display: flex;
+    justify-content: flex-end;
+    font-size:20px;
+}
+
+.headertitle li{
+    padding:0 10px 20px;
+}
+
+.headertitle a{
+    text-decoration: none;
+    color:#B01919;
+}
+
+
+/* -------------------中間------------------------ */
+
+section{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* -------------------麵包屑------------------------ */
+
+.nav{
+    
+    margin-bottom: 50px;
+}
+
+.nav ul{
+    width: 300px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-size:18px;
+}
+
+
+
+/* -------------------左側------------------------ */
+
+
+section .content{
+    display: flex;
+}
+
+
+section .content .sever{
+    margin: 0 0 20px 100px;
+    
+}
+
+section .content .sever h2{
+    font-size: 35px;
+    
+}
+
+section .content .sever h2 span{
+    text-decoration: 5px underline solid #b01919;
+    text-underline-offset: 30px;   
+    
+}
+
+section .content .sever h3{
+    margin-top: 70px;
+    font-size: 16px;
+}
+
+section .content .sever hr{
+    width: 200px;
+    margin: 5px 0 5px 0;
+    background-color: #b01919;
+    height: 1px;
+    border:none;
+}
+
+
+/* -------------------右側------------------------ */
+
+.customer{
+    margin: 0 0 50px 60px;
+    
+}
+
+.cu{
+    display: flex;
+    padding-left: 5px;
+}
+
+
+
+
+
+.customer .frame1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.customer h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+    
+}
+
+.customer .frame2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.customer input,textarea{
+    margin-bottom: 20px;
+    display: block;
+    
+}
+
+.customer label{
+    padding-bottom: 10px;
+}
+
+.customer input{
+    width: 400px;
+    font-size: 18px;
+    padding:5px;
+    margin-right: 20px;
+}
+
+.customer textarea{
+    width: 846px;
+    height: 165px;
+    margin-top: 15px;
+    resize: none;
+    padding: 5px;
+    font-size: 18px;
+    
+}
+
+.customer button{
+    font-size: 15px;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #B01919;
+    border:1px solid #B01919;
+    border-radius: 2px;
+
+}
+
+.customer button a{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+
+
+
+/* -------------------footer------------------------ */
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    background-color: black;
+    color:white;
+    margin:0 auto;
+}
+
+
+.contacts {
+    margin:30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacts h2{
+    font-size:30px;
+    padding-bottom:20px;
+}
+
+.contacts .footerp1{
+    width: 500px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.contacts .footerp2{
+    width: 800px;
+    font-size: 18px;
+    line-height: 300%;
+}
+
+
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin:30px;
+    
+    
+}
+
+.navtitle{
+    display: flex;
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.navtitle a{
+    color:white;
+    font-size: 20px;
+    padding-right:40px;
+    text-decoration: none;
+}
+
+.line{
+    border-top:2px solid white;
+    width: 460px;
+    padding-bottom: 35px;
+   
+}
+
+.socialicon{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    
+}
+
+.socialicon a{
+    padding-left:50px;
+}

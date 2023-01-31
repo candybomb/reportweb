@@ -1,0 +1,355 @@
+@import url("reset.css");
+
+html,body{
+    background-image: url(../img/backgroundimg.png);
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Sanchez','inherit',微軟正黑體;
+    
+}
+
+
+/* -------------------導覽列------------------------ */
+
+header{
+    width: 1400px;
+    
+    display:flex;
+    margin: 0 auto;
+}
+
+
+.logo, .logo a{
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 50px;
+}
+
+.headerlist{
+    width:100%;
+    margin:40px 30px 25px 30px;
+    list-style-type: none;
+    
+}
+
+.icon img{
+    width: 25px;
+    height: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.icon li{
+    padding:0 15px 20px;
+    
+}
+
+.headertitle{
+    display: flex;
+    justify-content: flex-end;
+    font-size:20px;
+}
+
+.headertitle li{
+    padding:0 10px 20px;
+}
+
+.headertitle a{
+    text-decoration: none;
+    color:#B01919;
+}
+
+
+/* -------------------中間------------------------ */
+
+section{
+    width: 1400px;
+    margin: 20px auto 0;
+}
+
+
+/* -------------------麵包屑------------------------ */
+
+.nav{
+    
+    margin-bottom: 50px;
+}
+
+.nav ul{
+    width: 300px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-size:18px;
+}
+
+
+
+/* -------------------左側圖片------------------------ */
+
+
+.itemcontent{
+    display: flex;
+}
+
+
+.photo{
+    width: 500px;
+    height: 660px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.photo .img1{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.photo .smallphoto ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo .smallphoto img{
+    width: 117px;
+    height: 117px;
+    object-fit: cover;
+
+}
+
+/* 右邊內文 */
+
+.itemcontent .text h1,h3,.buy{
+    margin-left: 30px;
+    font-size:25px;
+}
+
+.itemcontent .text h1{
+    line-height: 150%;
+}
+
+.itemcontent .text h3{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.itemcontent .text .buy {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.itemcontent .text .buy .num{
+    display: flex;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #9a9a97;
+    margin-left: 10px;
+    
+   
+    
+}
+
+
+.itemcontent .text .buy .num .add{
+    border-left: 1px solid #9a9a97;
+    padding: 10px 2px 2px 10px;
+    width: 30px;
+    
+    
+}
+
+.itemcontent .text .buy .num .minus{
+    border-right: 1px solid #9a9a97;
+    padding:8px 0 2px 10px;
+    width: 30px;
+}
+
+.itemcontent .text .buy .num .n p{
+    width: 60px;
+    /* padding-left: 10px; */
+    padding-top: 8px;
+    text-align: center;
+    
+}
+
+
+.itemcontent .text .buy .num a{
+    display: block;
+        font-size: 20px;
+        text-decoration: none;
+        color:black;
+        width: 30px;
+        height: 45px;
+        
+    
+}
+
+.itemcontent .text .buy button{
+    margin-left: 20px;
+    font-size: 18px;
+    /* width: 125px; */
+    background-color: #f9f8f4;
+    border:1px solid #9a9a97
+    
+}
+
+.itemcontent .text .buy button a{
+    display: block;
+    width: 125px;
+    line-height: 43px;
+    text-decoration: none;
+    color:#b01919;
+}
+
+.itemcontent  .contentp{
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size:18px;
+    line-height: 150%;
+    
+}
+
+/* 下面標籤 */
+
+.tag ul {
+    margin-left: 80px;
+    font-size: 0;
+}
+
+.tag ul li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border:1px solid #D9D9D9;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    font-size: 18px;
+    background-color: #D9D9D9;
+   
+}
+
+.tag ul li a{
+    text-decoration: none;
+    color:black;
+    display: block;
+}
+
+.tag ul li:nth-child(2){
+    background-color:#F9f8f4;
+}
+
+.introduce{
+    width: 980px;
+    margin-left: 80px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 50px;
+    line-height: 200%;
+    background-color:#F9f8f4;
+}
+
+.introduce p{
+    font-size:18px;
+    padding: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------footer------------------------ */
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    background-color: black;
+    color:white;
+    margin:0 auto;
+}
+
+
+.contacts {
+    margin:30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacts h2{
+    font-size:30px;
+    padding-bottom:20px;
+}
+
+.contacts .footerp1{
+    width: 500px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.contacts .footerp2{
+    width: 800px;
+    font-size: 18px;
+    line-height: 300%;
+}
+
+
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin:30px;
+    
+    
+}
+
+.navtitle{
+    display: flex;
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.navtitle a{
+    color:white;
+    font-size: 20px;
+    padding-right:40px;
+    text-decoration: none;
+}
+
+.line{
+    border-top:2px solid white;
+    width: 460px;
+    padding-bottom: 35px;
+   
+}
+
+.socialicon{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    
+}
+
+.socialicon a{
+    padding-left:50px;
+}

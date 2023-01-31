@@ -1,0 +1,183 @@
+@import url("reset.css");
+
+html,body{
+    background-image: url(../img/backgroundimg.png);
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Sanchez','inherit',微軟正黑體;
+    
+}
+
+
+/* -------------------導覽列------------------------ */
+
+header{
+    width: 1400px;
+    
+    display:flex;
+    margin: 0 auto;
+}
+
+
+.logo, .logo a{
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 50px;
+}
+
+.headerlist{
+    width:100%;
+    margin:40px 30px 25px 30px;
+    list-style-type: none;
+    
+}
+
+.icon img{
+    width: 25px;
+    height: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.icon li{
+    padding:0 15px 20px;
+    
+}
+
+.headertitle{
+    display: flex;
+    justify-content: flex-end;
+    font-size:20px;
+}
+
+.headertitle li{
+    padding:0 10px 20px;
+}
+
+.headertitle a{
+    text-decoration: none;
+    color:#B01919;
+}
+
+
+/* -------------------中間------------------------ */
+
+section{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* -------------------麵包屑------------------------ */
+
+.nav{
+    
+    margin-bottom: 50px;
+}
+
+.nav ul{
+    width: 300px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-size:18px;
+}
+
+
+
+/* -------------------中間------------------------ */
+
+section h1{
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
+/* -------------------footer------------------------ */
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    background-color: black;
+    color:white;
+    margin:0 auto;
+}
+
+
+.contacts {
+    margin:30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacts h2{
+    font-size:30px;
+    padding-bottom:20px;
+}
+
+.contacts .footerp1{
+    width: 500px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.contacts .footerp2{
+    width: 800px;
+    font-size: 18px;
+    line-height: 300%;
+}
+
+
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin:30px;
+    
+    
+}
+
+.navtitle{
+    display: flex;
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.navtitle a{
+    color:white;
+    font-size: 20px;
+    padding-right:40px;
+    text-decoration: none;
+}
+
+.line{
+    border-top:2px solid white;
+    width: 460px;
+    padding-bottom: 35px;
+   
+}
+
+.socialicon{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    
+}
+
+.socialicon a{
+    padding-left:50px;
+}

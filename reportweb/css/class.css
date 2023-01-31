@@ -1,0 +1,276 @@
+@import url("reset.css");
+
+html,body{
+    background-image: url(../img/backgroundimg.png);
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Sanchez','inherit',微軟正黑體;
+    
+}
+
+
+/* -------------------導覽列------------------------ */
+
+header{
+    width: 1400px;
+    
+    display:flex;
+    margin: 0 auto;
+}
+
+
+.logo, .logo a{
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 50px;
+}
+
+.headerlist{
+    width:100%;
+    margin:40px 30px 25px 30px;
+    list-style-type: none;
+    
+}
+
+.icon img{
+    width: 25px;
+    height: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.icon li{
+    padding:0 15px 20px;
+    
+}
+
+.headertitle{
+    display: flex;
+    justify-content: flex-end;
+    font-size:20px;
+}
+
+.headertitle li{
+    padding:0 10px 20px;
+}
+
+.headertitle a{
+    text-decoration: none;
+    color:#B01919;
+}
+
+
+/* -------------------中間------------------------ */
+
+section{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+section img{
+    display: block;
+    
+}
+
+/* -------------------麵包屑------------------------ */
+
+.nav{
+    
+    margin-bottom: 50px;
+}
+
+.nav ul{
+    width: 300px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-size:18px;
+}
+
+
+
+/* -------------------中間------------------------ */
+
+section h1{
+    text-align: center;
+    font-size: 30px;
+    color:#B01919;
+    /* text-decoration: underline solid #fdcd71; */
+    margin-bottom: 50px;
+}
+
+section h1 span{
+    text-decoration: 8px underline solid #fdcd71;
+    text-underline-offset: 10px;
+}
+
+
+
+/* 題目 */
+
+
+.title{
+    width: calc(100% / 250px);
+    margin: 100px 50px 50px 50px;
+    
+}
+
+
+.title li{
+    display: inline-block;
+    font-size: 25px;
+    
+}
+
+
+.title li::after{
+    content:"/";
+    padding-right: 20px;
+}
+
+.title ul li:last-child::after{
+    content:" ";
+   font-size: 0;
+   
+}
+
+
+
+.title a{
+    font-size:25px;
+    padding-right: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.title hr{
+    margin: 50px 0;
+    width: 1250px;
+    
+}
+
+
+/* 內文 */
+
+.content h1{
+    font-size: 36px;
+    text-align: left;
+}
+
+
+.content p{
+    width: 1250px;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.content table{
+    border:1px solid black;
+    width: 890px;
+    margin-top: 20px;
+}
+.content th{
+    border:1px solid black;
+    padding: 10px 0;
+}
+
+.content tr{
+    border:1px solid black;
+    text-align: center;
+
+}
+
+.content td{
+    border:1px solid black;
+    padding: 10px 0;
+}
+
+
+/* -------------------footer------------------------ */
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    background-color: black;
+    color:white;
+    margin:0 auto;
+}
+
+
+.contacts {
+    margin:30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacts h2{
+    font-size:30px;
+    padding-bottom:20px;
+}
+
+.contacts .footerp1{
+    width: 500px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.contacts .footerp2{
+    width: 800px;
+    font-size: 18px;
+    line-height: 300%;
+}
+
+
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin:30px;
+    
+    
+}
+
+.navtitle{
+    display: flex;
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.navtitle a{
+    color:white;
+    font-size: 20px;
+    padding-right:40px;
+    text-decoration: none;
+}
+
+.line{
+    border-top:2px solid white;
+    width: 460px;
+    padding-bottom: 35px;
+   
+}
+
+.socialicon{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    
+}
+
+.socialicon a{
+    padding-left:50px;
+}

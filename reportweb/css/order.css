@@ -1,0 +1,538 @@
+@import url("reset.css");
+
+html,body{
+    background-image: url(../img/backgroundimg.png);
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Sanchez','inherit',微軟正黑體;
+    
+}
+
+
+/* -------------------導覽列------------------------ */
+
+header{
+    width: 1400px;
+    
+    display:flex;
+    margin: 0 auto;
+}
+
+
+.logo, .logo a{
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 50px;
+}
+
+.headerlist{
+    width:100%;
+    margin:40px 30px 25px 30px;
+    list-style-type: none;
+    
+}
+
+.icon img{
+    width: 25px;
+    height: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.icon li{
+    padding:0 15px 20px;
+    
+}
+
+.headertitle{
+    display: flex;
+    justify-content: flex-end;
+    font-size:20px;
+}
+
+.headertitle li{
+    padding:0 10px 20px;
+}
+
+.headertitle a{
+    text-decoration: none;
+    color:#B01919;
+}
+
+
+/* -------------------中間------------------------ */
+
+section{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* -------------------麵包屑------------------------ */
+
+.nav{
+    
+    margin-bottom: 50px;
+}
+
+.nav ul{
+    width: 300px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-size:18px;
+}
+
+
+
+/* -------------------訂購人資料------------------------ */
+
+
+section .content{
+    display: flex;
+    
+    margin: 0 0 50px 80px; 
+} 
+
+section  h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left:80px; 
+    
+}
+
+section .buy{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+section .buy label,.buy1 label,.buy2 label {
+    font-size:20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+section .buy input{
+    width: 480px;
+    font-size: 18px;
+    padding: 2px;
+}
+
+section .buy1 ,.buy2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+
+section .buy1 input,textarea,.buy2 input{
+    font-size: 18px;
+    padding: 2px;
+}
+
+section .buy1 textarea{
+    resize:none;
+}
+
+section .buy1 input:nth-child(2){
+    width: 350px;
+}
+
+section .buy1 input:nth-child(4){
+    width: 660px;
+}
+
+section .buy1 textarea{
+    width: 660px;
+    height: 160px;
+}
+
+
+section .buy2 label{
+    margin-left: -310px;
+}
+
+section .buy2 input:nth-child(2){
+    width: 281px;
+    margin-left: -310px;
+}
+
+
+
+
+/* -------------------訂單明細------------------------ */
+
+/* 標題 */
+
+section hr{
+    margin-left: 80px;
+    width: 1172px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #9a9a97;
+
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title ul li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.title ul li:nth-child(1){
+    
+    padding-left: 200px;
+}
+
+.title ul li:nth-child(2){
+    
+    padding-left: 610px;
+}
+
+
+.title ul li:nth-child(3){
+    padding-left: 200px;
+    
+}
+
+
+
+/* 內容物 */
+
+
+
+.list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.list ul li:nth-child(1){
+    
+    padding-left: 160px;
+}
+
+.list ul li:nth-child(2){
+    
+    padding-left: 585px;
+}
+
+
+.list ul li:nth-child(3){
+    padding-left: 200px;
+    
+}
+
+
+/* 總計 */
+
+.total{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.total ul li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.total ul li:nth-child(1){
+    
+    padding-left: 200px;
+}
+
+.total ul li:nth-child(2){
+    
+    padding-left: 625px;
+}
+
+.total ul li:nth-child(3){
+    
+    padding-left: 200px;
+}
+
+/* 運費 */
+
+
+.freight{
+    margin-top: 20px;
+    
+    padding-left: 200px;
+    
+}
+
+.freight .send1{
+    display: flex;
+}
+
+.freight ul li{
+    font-size: 20px;
+    
+}
+
+
+.freight ul .send2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 580px;
+}
+
+.freight ul .send2 li{
+    margin-bottom: 20px;
+}
+
+/* 總計 */
+
+.totalpay{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.totalpay ul li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.totalpay ul li:nth-child(1){
+    
+    padding-left: 200px;
+}
+
+.totalpay ul li:nth-child(2){
+    
+    padding-left: 850px;
+}
+
+/*支付*/
+
+.pay{
+    width: 1172px;
+    margin-left: 80px;
+    border: 1px solid #9a9a97;
+    margin-bottom: 50px;
+    background-color: #f9f8f4;
+}
+
+.pay ul{
+    margin-left: 30px;
+}
+
+.pay ul li{
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+/* 下訂按鈕 */
+
+
+section button{
+    margin-bottom: 100px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    background-color: #b01919;
+    border:#B01919 1px solid;
+    border-radius: 2px;
+}
+
+section button a{
+    display: block;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+
+/* -------------------右側------------------------ */
+
+/* .customer{
+    margin: 0 0 50px 60px;
+    
+}
+
+.cu{
+    display: flex;
+    padding-left: 5px;
+}
+
+
+
+
+
+.customer .frame1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.customer h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+    
+}
+
+.customer .frame2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.customer input,textarea{
+    margin-bottom: 20px;
+    display: block;
+    
+}
+
+.customer label{
+    padding-bottom: 10px;
+}
+
+.customer input{
+    width: 400px;
+    font-size: 18px;
+    padding:5px;
+    margin-right: 20px;
+}
+
+.customer textarea{
+    width: 846px;
+    height: 165px;
+    margin-top: 15px;
+    resize: none;
+    padding: 5px;
+    font-size: 18px;
+    
+}
+
+.customer button{
+    font-size: 15px;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #B01919;
+    border:1px solid #B01919;
+    border-radius: 2px;
+
+}
+
+.customer button a{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+ */
+
+
+/* -------------------footer------------------------ */
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    background-color: black;
+    color:white;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+
+.contacts {
+    margin:30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacts h2{
+    font-size:30px;
+    padding-bottom:20px;
+}
+
+.contacts .footerp1{
+    width: 500px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.contacts .footerp2{
+    width: 800px;
+    font-size: 18px;
+    line-height: 300%;
+}
+
+
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin:30px;
+    
+    
+}
+
+.navtitle{
+    display: flex;
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.navtitle a{
+    color:white;
+    font-size: 20px;
+    padding-right:40px;
+    text-decoration: none;
+}
+
+.line{
+    border-top:2px solid white;
+    width: 460px;
+    padding-bottom: 35px;
+   
+}
+
+.socialicon{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    
+}
+
+.socialicon a{
+    padding-left:50px;
+}

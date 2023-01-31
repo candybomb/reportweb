@@ -1,0 +1,431 @@
+@import url("reset.css");
+
+html,body{
+    background-image: url(../img/backgroundimg.png);
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Sanchez','inherit',微軟正黑體;
+    
+}
+
+
+/* -------------------導覽列------------------------ */
+
+header{
+    width: 1400px;
+    
+    display:flex;
+    margin: 0 auto;
+}
+
+
+.logo, .logo a{
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 20px 50px;
+}
+
+.headerlist{
+    width:100%;
+    margin:40px 30px 25px 30px;
+    list-style-type: none;
+    
+}
+
+.icon img{
+    width: 25px;
+    height: 25px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.icon li{
+    padding:0 15px 20px;
+    
+}
+
+.headertitle{
+    display: flex;
+    justify-content: flex-end;
+    font-size:20px;
+}
+
+.headertitle li{
+    padding:0 10px 20px;
+}
+
+.headertitle a{
+    text-decoration: none;
+    color:#B01919;
+}
+
+
+/* -------------------中間------------------------ */
+
+section{
+    width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+section img{
+    display: block;
+    
+}
+
+/* -------------------麵包屑------------------------ */
+
+.nav{
+    
+    margin-bottom: 50px;
+}
+
+.nav ul{
+    width: 300px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav li a{
+    color:#b3b3b3;
+    text-decoration: none;
+    font-size:18px;
+}
+
+
+
+/* -------------------中間------------------------ */
+
+section h1{
+    text-align: center;
+    font-size: 30px;
+    color:#B01919;
+    /* text-decoration: underline solid #fdcd71; */
+    margin-bottom: 50px;
+}
+
+
+/* 僞元素底線(會跑掉) */
+/* section h1::after{
+position:absolute;
+left: 650px;
+content: "";
+width: 110px;
+height: 5px;
+background-color: #fdcd71;
+} */
+
+section h1 span{
+    text-decoration: 8px underline solid #fdcd71;
+    text-underline-offset: 10px;
+}
+
+.frame1 h3,.frame2 h3,.frame3 h3,.frame4 h3,.frame5 h3{
+    font-size: 25px;
+}
+
+.frame1 p,.frame2 p,.frame3 p,.frame4 p,.frame5 p{
+    font-size:16px;
+}
+
+/* 第一格 */
+
+.frame1{
+    position: relative;
+    margin-bottom: 80px;
+    
+}
+
+.frame1 img{
+    
+    width: 800px;
+    height: 540px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.frame1p{
+    width: 860px;
+    height: 240px;
+    position: absolute;
+    top: 340px;
+    left: 100px;
+    background-color: #F9f8f4;
+    border-top:5px solid #B01919;
+    box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.frame1p h3{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    color:#B01919;
+}
+
+.frame1p p{
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    line-height: 180%;
+}
+
+
+/* 第二格 */
+
+
+
+.frame2{
+    position: relative;
+    margin-bottom: 80px;
+    
+}
+
+.frame2 img{
+    
+    width: 1020px;
+    height: 600px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.frame2p{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 128px;
+    left: 50px;
+    background-color: #F9f8f4;
+    border-top:5px solid #FFD700;
+    box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.frame2p h3{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color:#B01919;
+}
+
+.frame2p p{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 180%;
+}
+
+
+/* 第三格 */
+
+
+.frame3{
+    position: relative;
+    margin-bottom: 80px;
+    
+}
+
+.frame3 img{
+    
+    width: 1020px;
+    height: 600px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.frame3p{
+    width: 380px;
+    height: 350px;
+    position: absolute;
+    bottom: -30px;
+    right: 150px;
+    background-color: #F9f8f4;
+    border-top:5px solid #B01919;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.frame3p h3{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color:#B01919;
+}
+
+.frame3p p{
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 180%;
+}
+
+
+
+
+/* 第四格 */
+
+
+
+.frame4{
+    position: relative;
+    margin-bottom: 300px;
+    
+}
+
+.frame4 img{
+    
+    width: 1020px;
+    height: 600px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.frame4p{
+    width: 900px;
+    height: 480px;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    background-color: #F9f8f4;
+    border-top:5px solid #FFD700;
+    box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.frame4p h3{
+    padding-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color:#B01919;
+}
+
+.frame4p p{
+    padding-left: 50px;
+    margin-bottom: 30px;
+    line-height: 150%;
+}
+
+
+/* 第五格 */
+
+
+.frame5{
+    position: relative;
+    margin-bottom: 230px;
+    
+}
+
+.frame5 img{
+    
+    width: 1000px;
+    height: 580px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.frame5p{
+    width: 410px;
+    height: 510px;
+    position: absolute;
+    top: 240px;
+    left: 150px;
+    background-color: #F9f8f4;
+    border-top:5px solid #B01919;
+    box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.frame5p h3{
+    padding-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color:#B01919;
+}
+
+.frame5p p{
+    padding-left: 50px;
+    margin-bottom: 30px;
+    line-height: 180%;
+}
+
+
+/* -------------------footer------------------------ */
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    background-color: black;
+    color:white;
+    margin:0 auto;
+}
+
+
+.contacts {
+    margin:30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contacts h2{
+    font-size:30px;
+    padding-bottom:20px;
+}
+
+.contacts .footerp1{
+    width: 500px;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.contacts .footerp2{
+    width: 800px;
+    font-size: 18px;
+    line-height: 300%;
+}
+
+
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin:30px;
+    
+    
+}
+
+.navtitle{
+    display: flex;
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.navtitle a{
+    color:white;
+    font-size: 20px;
+    padding-right:40px;
+    text-decoration: none;
+}
+
+.line{
+    border-top:2px solid white;
+    width: 460px;
+    padding-bottom: 35px;
+   
+}
+
+.socialicon{
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    
+}
+
+.socialicon a{
+    padding-left:50px;
+}
